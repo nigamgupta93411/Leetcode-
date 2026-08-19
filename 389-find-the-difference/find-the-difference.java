@@ -16,3 +16,21 @@ class Solution {
         return ans;
     }
 }
+ /*ArrayList<Character> list = new ArrayList<>();
+ char ans='a';
+
+        for (int i = 0; i < s.length(); i++) {
+            list.add(s.charAt(i));
+        }
+
+        for (int i = 0; i < t.length(); i++) {
+            char x = t.charAt(i);
+
+            if (!list.contains(x)) {
+                ans=x;
+            } 
+        }
+
+        return ans;
+    }
+}*/
