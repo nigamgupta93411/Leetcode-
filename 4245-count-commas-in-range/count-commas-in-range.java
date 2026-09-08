@@ -1,0 +1,12 @@
+class Solution {
+    public int countCommas(int n) {
+        int digits=0;
+        if(n<1000){
+            return 0;
+        }
+        int comma=n-1000+1;
+        return comma;
+
+        
+    }
+}
