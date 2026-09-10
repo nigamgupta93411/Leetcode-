@@ -2,9 +2,9 @@ class Solution {
     public boolean checkInclusion(String s1, String s2) {
         int n=s1.length();
         HashMap<Character,Integer> map=new HashMap<>();
-        if(n>s2.length()){
-            return false;
-        }
+        // if(n>s2.length()){
+        //     return false;
+        // }
         for(int i=0;i<n;i++){
             char ch=s1.charAt(i);
             if(map.containsKey(ch)){
