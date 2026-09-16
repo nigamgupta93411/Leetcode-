@@ -8,9 +8,9 @@ for(int right=0;right<fruits.length;right++){
     while (map.size()>2){
          map.put(fruits[left],map.getOrDefault(fruits[left],0)-1);
 
-    
-    if(map.get(fruits[left])==0)
+if(map.get(fruits[left])==0){
         map.remove(fruits[left]);
+}
 
     
     left++;
